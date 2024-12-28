@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: beige;
+}
+#navbar{
+    width: 100%;
+    background-color: black;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  margin: auto;
+  padding: 5px;
+}
+a{
+    color: aliceblue;
+    font-size: 1rem;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+
+}
+a:hover{
+    cursor: pointer;
+    color: white;
+    transition: 1s ;
+    color : rgb(25, 25, 218);
+  
+}
